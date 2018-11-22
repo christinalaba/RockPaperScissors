@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Play with Fate</title>
+    
+    <link rel='stylesheet' type='text/css' href='style.css'>
+    <link href="https://fonts.googleapis.com/css?family=Hind:700|Inconsolata:400,700" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="pageTitle">Play to decide your fate</h1>
+        <div class="gameOverDisplay"></div>
+        <div class="gameControls">
+            <button class="rockButton">Rock</button>
+            <button class="paperButton">Paper</button>
+            <button class="scissorsButton">Scissors</button>
+            <p id="selectionAnimation">Click to select</p>
+        </div><!-- ./gameControls -->
+        <div class="scoreBoard">
+            <div class="display">
+                <div class="playerDisplay clearfix">
+                    <p class="playerName">Player</p>
+                    <p class="playerScore">0</p>
+                </div>
+                <p class="vs">VS</p>
+                <div class="fateDisplay clearfix">
+                    <p class="fateName">Fate</p>
+                    <p class="fateScore">0</p>
+                </div>
+            </div>
+        </div><!-- ./scoreBoard -->
+
+ 
+
+        <div class="gameScreen">
+            <div class="imageContainer">
+                <div class="animation" id="leftHand"></div>
+                <div class="animation" id="rightHand" ></div>
+            </div>
+        </div><!-- ./gameScreen -->
+
+        <div class="introModal">
+            <form action="">
+                
+            </form>
+        </div>
+
+        <footer>
+            <p class="credit">Artwork by:<a href="http://davidgalletly.com/">David Galletly</a></p>    
+        </footer>
+
+    </div><!-- ./wrapper -->
+    
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+
+</body>
+</html>
