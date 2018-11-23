@@ -111,14 +111,16 @@ button:hover{
     left: 0;
     bottom: 0;
     background: no-repeat url(images/left/LeftRockWin.png);
-    background-size: contain;
+    width: 300px;
+    height: 300px;
 }
 
 #rightHand{
     right: 0;
     bottom: 0;
     background: no-repeat url(images/right/RightRockWin.png);
-    background-size: contain;
+    width: 300px;
+    height: 300px;
 }
 
 footer{
