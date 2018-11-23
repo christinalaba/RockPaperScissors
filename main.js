@@ -80,10 +80,10 @@ function gameStartAnimation(){
 
 function resultOfRound (){
     console.log("game End Animation triggered");
-    $('#leftHand').css('background', `no-repeat url(images/left/Left${app.userChoice}win.png)`)
+    $('#leftHand').css('background', `no-repeat url(images/left/Left${app.userChoice}Win.png)`)
     $('#leftHand').css('background-size', `contain`)
     
-    $('#rightHand').css('background', `no-repeat url(images/right/Right${app.randomChoice}win.png)`)
+    $('#rightHand').css('background', `no-repeat url(images/right/Right${app.randomChoice}Win.png)`)
     $('#rightHand').css('background-size', `contain`)
     TweenMax.delayedCall(1, roundWinnerAnimation);
 }
